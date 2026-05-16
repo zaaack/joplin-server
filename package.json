@@ -1,0 +1,20 @@
+{
+    "name": "joplin-server",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.33.0",
+    "devDependencies": {
+        "foy": "^1.0.1",
+        "tsx": "^4.22.0",
+        "typescript": "^6.0.3"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "foy": {
+      "source": "zaaack/prompts",
+      "sourceType": "github",
+      "computedHash": "4f6a4d82640411e1cdfb0f7e97245124af67b1e9e7a2e39b5f36f7a4fc9c621d"
+    }
+  }
+}
