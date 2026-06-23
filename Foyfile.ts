@@ -22,11 +22,10 @@ task("deploy", async (ctx) => {
     await fs.copy("set-wal-mode.js", "server/set-wal-mode.js");
     await robocopy("server", dist, files);
 
-    await runInMiniPC(
-        "cd C:/Users/z/server/joplin-server,
-    );
     // 手动输入  pnpm i -P thirty-two  node-os-utils
-
+    console.log(`请到服务器上运行:
+    cd C:/Users/z/server/joplin-server
+     pnpm i -P thirty-two  node-os-utils`)
     // 等待用户确认继续
     const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
     const answer = await new Promise<string>((resolve) => {
